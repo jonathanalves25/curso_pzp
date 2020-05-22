@@ -26,10 +26,10 @@ if(isset($_SESSION['banco']) && !empty($_SESSION['banco'])) {
 </title>
 <body>
     <h1>Banco Ximbicudos</h1>
-    Titular: <?php echo $info['titular']; ?>
+    Titular: <?php echo $info['titular']; ?><br>
     Agência: <?php echo $info['agencia']; ?><br>
     Conta: <?php echo $info['conta']; ?><br>
     Saldo: <?php echo $info['saldo']; ?><br>
-    <a href="">Sair</a>
+    <a href="sair.php">Sair</a>
 </body>
 </html>
