@@ -1,6 +1,8 @@
 <?php
 session_start();
 require 'config.php';
+
+//verificando sessao e selecionando conta pelo id
 if(isset($_SESSION['banco']) && !empty($_SESSION['banco'])) {
     $id = $_SESSION['banco'];
 
