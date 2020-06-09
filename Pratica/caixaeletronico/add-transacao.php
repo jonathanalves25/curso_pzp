@@ -14,11 +14,13 @@ if(isset($_POST['tipo'])) {
     $sql->execute();
 
     if($tipo == '0') {
+        //deposito
         $sql = $pdo->prepare("UPDATE contas SET saldo = saldo + :valor WHERE id = :id");
         $sql->bindValue(":valor", $valor);
         $sql->bindValue(":id", $_SESSION['banco']);
         $sql->execute();
     } else {
+        //saque
         $sql = $pdo->prepare("UPDATE contas SET saldo = saldo - :valor WHERE id = :id");
         $sql->bindValue(":valor", $valor);
         $sql->bindValue(":id", $_SESSION['banco']);
