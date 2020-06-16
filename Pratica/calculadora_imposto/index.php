@@ -15,10 +15,10 @@
     <?php
 
     if(isset($_POST['val']) && !empty($_POST['val']) AND isset($_POST['imposto']) && !empty($_POST['imposto'])) {
-        $valor = intval($_POST['val']);
-        $imposto = intval($_POST['imposto']);
-        $desconto = $valor * ($imposto / 100);
-        $valor_final = $valor - $desconto;
+        $valor = intval($_POST['val']); // recebendo valor do produto
+        $imposto = intval($_POST['imposto']); // recebendo porcentagem do imposto
+        $desconto = $valor * ($imposto / 100); // convertendo o desconto
+        $valor_final = $valor - $desconto; // valor com desconto
 
         echo "Valor do produto: R$".$valor;
     ?>
