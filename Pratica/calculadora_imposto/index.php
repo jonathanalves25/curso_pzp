@@ -25,6 +25,8 @@
     <br>    
     <?php
         echo "Taxa de imposto: ".$imposto."%";
+    } else {
+        Echo "valor não definido!";
     }
 
     ?>
