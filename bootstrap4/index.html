@@ -16,6 +16,12 @@
             .col-sm {
                 height:50px;
             }
+
+            #area {
+                border:1px solid #000;
+                background-color:#EEEEEE;
+                padding:20px;
+            }
         </style>
     </head>
     <body>
@@ -92,6 +98,74 @@
                 </table>
             </div>
 
+            <br><br><br><br>
+            <hr>
+
+            <h2>Alertas e Avisos</h2>
+
+            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                Algum aviso ou alerta.
+                <button class="close" data-dismiss="alert" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Grupo de botões</h2>
+
+            <div class="btn-group">
+
+                <a class="btn btn-outline-warning" href="#">Botão</a>
+                <button class="btn btn-primary">Botão</button>
+                <input class="btn btn-danger" type="submit" value="Botão">
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Slides carousel</h2>
+
+            <div id="slideCarousel" class="slide carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#slideCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideCarousel" data-slide-to="1"></li>
+                    <li data-target="#slideCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="foto1.jpg" class="w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="foto2.png" class="w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="foto3.jpg" class="w-100">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" data-slide="prev" href="#slideCarousel">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" data-slide="next" href="#slideCarousel">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Collapse</h2>
+
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#area">Mostrar/Esconder</button>
+            <div class="collapse" id="area">
+                Texto escondido que será exibido.
+            </div>
         </div>
 
         <script type=text/javascript src="jquery.min.js"></script>
