@@ -166,6 +166,175 @@
             <div class="collapse" id="area">
                 Texto escondido que será exibido.
             </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Accordion</h2>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#c1" aria-controls="c1">Titulo do CARD 1</button>
+                    </div>
+                    <div id="c1" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Texto do CARD
+                        </div>
+                    </div>
+
+                    <div class="card-header">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#c2" aria-controls="c2">Titulo do CARD 2</button>
+                    </div>
+                    <div id="c2" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Texto do CARD
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Dropdown</h2>
+
+            <div class="dropdown btn-group">
+                <a href="https://instagram.com" class="btn btn-primary">Instagram</a>
+                <a href="#" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></a>
+
+                <div class="dropdown-menu">
+                    <a href="https://facebook.com" class="dropdown-item">Facebook</a>
+                    <a href="https://google.com" class="dropdown-item">Google</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="https://twitter.com" class="dropdown-item">Twitter</a>
+                </div>
+
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Formulário</h2>
+
+            <form method="post">
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input id="senha" type="password" name="senha" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="login" value="Logar" class="btn btn-primary">
+                </div>
+
+            </form>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Input groups</h2>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                </div>
+                <input type="email" name="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <input type="email" name="email" class="form-control" placeholder="Seu email aqui">
+                <div class="input-group-append">
+                    <span class="input-group-text">@hotmail.com</span>
+                </div>
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>List Groups</h2>
+
+            <div style="width:600px;margin:20px;">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Curso php do zero ao profissional
+                        <span class="badge badge-primary badge-pill">12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Front-end do zero ao profissional
+                        <span class="badge badge-primary badge-pill">244</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        WP do zero ao profissional
+                        <span class="badge badge-primary badge-pill">33</span>
+                    </li>
+                </ul>
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Modal</h2>
+
+            <button class="btn btn-primary" data-toggle="modal" data-target="#janela">Clique aqui para abrir</button>
+
+            <div class="modal fade" id="janela">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Titulo do modal</h5>
+                            <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-dismiss="modal">Fechar Janela</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Navbar</h2>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+                <a href="#" class="navbar-brand">Empresa xyz</a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navMenu">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link">Link 1</a>
+                        <a href="#" class="nav-item nav-link">Link 2</a>
+                        <a href="#" class="nav-item nav-link">Link 3</a>
+                        <a href="#" class="nav-item nav-link">Link 4</a>
+                    </div>
+                </div>
+
+                <form method="post" class="form-inline">
+                    <input type="text" name="texto" placeholder="Pesquisar">
+                </form>
+            </nav>
+
+            <br><br><br><br>
+            <hr>
+
+            <h2>Paginação</h2>
+
+            <ul class="pagination">
+                <li class="page-item"><a href="" class="page-link">1</a></li>
+                <li class="page-item"><a href="" class="page-link">2</a></li>
+                <li class="page-item"><a href="" class="page-link">3</a></li>
+            </ul>
+
+
         </div>
 
         <script type=text/javascript src="jquery.min.js"></script>
