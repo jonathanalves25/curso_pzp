@@ -1,12 +1,12 @@
 .container-fluid {
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
 }
 
 .navbar {
     width:100%;
-    padding:0;
-    margin:0;
+    padding:0px;
+    margin:0px;
 }
 
 .navbar-collapse {
@@ -59,7 +59,7 @@
     width:100%;
     max-width:380px;
     text-align:center;
-    padding:0;
+    padding:0px;
     background-color:#cecece;
 }
 
@@ -184,6 +184,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    padding:0;
+    margin:0;
 }
 
 .texto {
@@ -215,7 +217,6 @@
     color:white;
     text-align:center;
     padding-top:30px;
-    padding:20px;
 }
 
 #formulario {
