@@ -1,0 +1,10 @@
+
+.filme {
+    border:1px solid #CCC;
+    padding:10px;
+    background-color:#EEE;
+}
+
+.filme img {
+    width:100%;
+}

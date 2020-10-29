@@ -1,6 +1,8 @@
-.container-fluid {
-    margin:0px;
-    padding:0px;
+
+
+.container {
+    margin:auto;
+    padding:0;
 }
 
 .navbar {
@@ -52,14 +54,14 @@
     display:flex;
     justify-content: space-around;
     background-color:white;
+    padding:0;
 }
 
 .col- {
-    margin:10px;
     width:100%;
     max-width:380px;
     text-align:center;
-    padding:0px;
+    padding:0;
     background-color:#cecece;
 }
 
@@ -76,7 +78,7 @@
 .col-md {
     padding:0;
     width:100%;
-    max-width:600px;
+    max-width:500px;
     text-align:justify;
     background-color:#cecece;
 }
@@ -99,7 +101,8 @@
     max-width:1200px;
     text-align:center;
     background-color:#cecece;
-    padding:0px;
+    padding:0;
+    margin:0;
 }
 
 .col-xl h1 {
@@ -117,7 +120,7 @@
     margin:10px;
     padding:0;
     width:100%;
-    max-width:400px;
+    max-width:330px;
     background-color:#cecece;
     text-align:justify;
 }
