@@ -214,6 +214,7 @@ header {
 
 .section-aboutus--left {
     flex:1;
+    padding:20px;
 }
 
 .section-aboutus--left p {
