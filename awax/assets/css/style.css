@@ -451,3 +451,371 @@ header {
 .section-team--social a:hover {
     background-color: #B28756;
 }
+
+.bg-grey {
+    width:100%;
+    padding:0;
+}
+
+.section-hclientsarea {
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#ecf0f1;
+
+}
+
+
+.section-hclients {
+    max-width:880px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    flex-direction: column;
+}
+
+.section-hclient--avatar {
+    width:150px;
+    height:auto;
+}
+
+.section-hclient--name {
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:17px;
+    margin-top:30px;
+}
+
+.section-hclient--role {
+    font-size:14px;
+    color:#000;
+    font-weight:600;
+    margin-top:5px;
+}
+
+.section-hclient--avaliation {
+    margin-top:20px;
+}
+
+.section-hclient--avaliation p {
+    padding-top: 15px;
+}
+
+.section-hclients .sliders-pointers {
+    margin-top:30px;
+    width:100vw;
+    height:20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.section-hclients .pointers {
+    width:15px;
+    height:15px;
+    border:1px solid #B28756;
+    border-radius:8px;
+    margin-right:5px;
+    margin-left:5px;
+    cursor:pointer;
+}
+
+.section-hclients .pointers.active {
+    background-color:#B28756;
+}
+
+.bg-border {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.section-partners {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:40px;
+    margin:auto;
+}
+
+.section-partner {
+    width:880px;
+    height:70px;
+    flex:1;
+    padding:20px;
+    margin-top:-40px;
+    margin-bottom:20px;
+
+}
+
+.section-partner img {
+    width:100px;
+    height:50px;
+    margin-right:40px;
+    margin-left:40px;
+}
+
+.section-prices {
+    display:flex;
+    max-width:1140px;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+}
+
+.section-pricearea {
+    padding:20px;
+    margin:20px;
+    width:400px;
+    text-align: center;
+    background-color:#FFF;
+}
+
+.section-pricearea--plan {
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+
+.section-pricearea--value h4 {
+    font-size:18px;
+    padding-top:10px;
+}
+
+.section-pricearea--value p {
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:12px;
+    color:#999;
+    padding-bottom:30px;
+}
+
+.section-pricearea--vantages {
+    color:#606060;
+}
+
+.b-price {
+    background-color:#2c3e50;
+}
+
+.b-price:hover {
+    background-color:#B28756;
+}
+
+.section-premium {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+
+.section-premium--image {
+    width:450px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.section-premium--feature {
+    width:400px;
+    margin-left:60px;
+}
+
+.section-premium--feature img {
+    float:left;
+    width:45px;
+    padding-right:20px;
+}
+
+.section-premium--feature h3 {
+    font-size:16px;
+    font-weight:600;
+    margin-top:15px;
+    text-transform:uppercase;
+}
+
+.section-premium--feature p {
+    text-align: justify;
+    padding-left:50px;
+    line-height:20px;
+    margin-bottom:30px;
+}
+
+
+.section-premium--sliders {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.section-premium--sliders .sliders-pointers {
+    margin-top:30px;
+    width:100vw;
+    height:20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.section-premium--sliders .pointers {
+    width:15px;
+    height:15px;
+    border:1px solid #B28756;
+    border-radius:8px;
+    margin-right:5px;
+    margin-left:5px;
+    cursor:pointer;
+}
+
+.section-premium--sliders .active {
+    background-color: #B28756;
+}
+
+.section-premium--button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.section-facts {
+    width:100%;
+    max-width:1140px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.section-fact {
+    width:170px;
+    padding:0;
+    margin-right:40px;
+    margin-left:40px;
+}
+
+.section-fact:first-child {
+    margin-top:15px;
+}
+
+.section-fact h4 {
+    color:#B28756;
+    font-weight:800;
+    font-size:24px;
+    text-align:center;
+}
+
+.section-fact hr {
+    width:15px;
+    height:2px;
+    border-radius:10px;
+    margin:auto;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.section-fact h5 {
+    text-transform: uppercase;
+    text-align:center;
+    font-size:16px;
+}
+
+.section-fact p {
+    padding-top:15px;
+    text-align: justify;
+    font-size:12px;
+    line-height:20px;
+}
+
+.bg-grey-sharing {
+    padding:0;
+}
+
+.section-sharingarea {
+    border-top:1px solid #606060;
+    border-bottom:1px solid #606060;
+    background-color:#B28756;
+}
+
+.section-sharing {
+    width:100%;
+    margin-top:-30px;
+    margin-bottom:20px;
+    padding:0;
+    max-width:1140px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.section-sharing--tell {
+    margin-top:10px;
+    margin-right:30px;
+}
+
+.section-sharing--tell p {
+    text-transform: uppercase;
+    font-size:14px;
+}
+
+.section-sharing--tell img {
+    margin-top:-5px;
+}
+
+.section-sharing p {
+    text-transform: uppercase;
+    font-weight:600;
+    padding-right:20px;
+    color:#2c3e50;
+    float:right;
+    cursor:pointer;
+}
+
+.section-sharing img {
+    padding-right:10px;
+    height:auto;
+}
+
+.section-sharing--medias p {
+    color:#2c3e50;
+    cursor:pointer;
+}
+
+.section-contato {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+
+.section-form {
+    width:620px;
+}
+
+.section-form input {
+    border:none;
+    font-size:16px;
+    background:none;
+    border-bottom:2px solid #555;
+    width:550px;
+    margin-top:30px;
+    margin-left:50px;
+}
+
+.section-form .input-name,
+.section-form .input-email {
+    width: 255px;
+}
+
+.section-form .input-email {
+    margin-left:35px;
+}
+
+.section-contato--button {
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
