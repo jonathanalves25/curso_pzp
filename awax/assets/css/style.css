@@ -794,7 +794,8 @@ header {
 .section-form input {
     border:none;
     font-size:16px;
-    background:none;
+    background:transparent;
+    outline:0;
     border-bottom:2px solid #555;
     width:550px;
     margin-top:30px;
@@ -817,5 +818,130 @@ header {
     justify-content:center;
 }
 
+.section-map {
+    background-image: url('/assets/images/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
 
+.section-map--area {
+    width:100vw;
+    max-width:1140px;
+    margin:auto;
 
+}
+
+.section-map--info {
+    width:50%;
+    background-color:#FFF;
+    padding:30px;
+}
+
+.section-map--info-item {
+    display:flex;
+    align-items:center;
+    color:#555;
+    margin-bottom:15px;
+}
+
+.section-map--info-item-img {
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    background-color:#999;
+    display:inline-flex;
+    align-items:center;
+    padding:7px;
+    margin-right:15px;
+}
+
+.section-map--info-item-img img{
+    width:15px;
+    height:auto;
+}
+
+.section-rodape {
+    width:100vw;
+    max-width:1140px;
+}
+
+.section-rodape--area {
+    width:100%;
+    max-width:1140px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    margin-top:-70px;
+}
+
+.section-rodape--area-item {
+    margin-right:10px;
+    width:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    margin:auto;
+    margin-right:15px;
+}
+
+.section-rodape--area-item p {
+    text-align: justify;
+    line-height: 15px;
+    color:#CCC;
+}
+
+.section-rodape--area-item-imgs {
+    width:100%;
+    max-width:400px;
+    display:flex;
+    flex-direction:row;
+    padding:15px;
+}
+
+.section-rodape--area-item-img {
+    width:25px;
+    height:25px;
+    background-color:#555;
+    border-radius:12px;
+    padding:5px;
+    margin-right:5px;
+    margin-bottom:80px;
+}
+
+.section-rodape--area-item-imgs img {
+    width:15px;
+    height:auto;
+}
+
+.section-rodape--area-item-text {
+    width:100%;
+    max-width:400px;
+    color:#CCC;
+    margin-right:-30px;
+}
+
+.section-rodape--area-item-form {
+    width:300px;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    background:rgba(60, 60, 60, .3);
+}
+
+.section-rodape input {
+    border:none;
+    font-size:16px;
+    background:transparent;
+    outline:none;
+    border-bottom:2px solid #CCC;
+    color:#CCC;
+    width:250px;
+    text-align:center;
+    padding-bottom:15px;
+}
